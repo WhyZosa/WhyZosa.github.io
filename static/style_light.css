@@ -1,0 +1,46 @@
+body {
+    background: #fdfdfd;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+.controls {
+    display: flex;
+    gap: 20px;
+}
+
+.controls .language, .controls .theme {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.controls a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.controls a.active {
+    background: #333;
+    color: #fff;
+}
